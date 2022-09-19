@@ -21,14 +21,14 @@
     </h1>
     <form id="form1" runat="server">
         
-           <p> 
+            
             <label>First Name:</label>
             <asp:TextBox ID="TextBox1"  placeholder="First Name" required="" runat="server"></asp:TextBox>
         
 
-           
-            <lable>Last Name:</lable>
-            <asp:TextBox ID="TextBox6" placeholder="Last Name" required="" runat="server"></asp:TextBox>
+            <p>
+                <label>Last Name:</label>
+                <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
 
            </p>
 
